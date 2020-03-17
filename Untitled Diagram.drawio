@@ -1,19 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-03-17T05:25:27.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="0fHGSGoBQo0TJBFpMqCI" version="12.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-17T05:32:54.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="9wm9g7_-BR3vhiyIdxTk" version="12.8.5" type="github">
   <diagram id="pbymaa8K16CYE7F3EQun" name="Page-1">
-    <mxGraphModel dx="1865" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0KbJ406O0pL8vo5ZdRxn-4" value="SpringBoot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="40" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="0KbJ406O0pL8vo5ZdRxn-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-6" target="0KbJ406O0pL8vo5ZdRxn-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0KbJ406O0pL8vo5ZdRxn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-6" target="0KbJ406O0pL8vo5ZdRxn-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0KbJ406O0pL8vo5ZdRxn-6" value="@SpringBootApplication注解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-6" value="Main" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="330" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0KbJ406O0pL8vo5ZdRxn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-8" target="0KbJ406O0pL8vo5ZdRxn-9">
@@ -22,7 +19,10 @@
         <mxCell id="0KbJ406O0pL8vo5ZdRxn-8" value="&lt;span style=&quot;white-space: normal&quot;&gt;SpringApplication.Run&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0KbJ406O0pL8vo5ZdRxn-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-9" target="0KbJ406O0pL8vo5ZdRxn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-9" value="加载监听器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0KbJ406O0pL8vo5ZdRxn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-12" target="0KbJ406O0pL8vo5ZdRxn-14">
@@ -36,6 +36,33 @@
         </mxCell>
         <mxCell id="0KbJ406O0pL8vo5ZdRxn-16" value="&lt;div&gt;javax.servlet.Servlet&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;org.springframework.web.context.ConfigurableWebApplicationContext&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-250" y="140" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-22" target="0KbJ406O0pL8vo5ZdRxn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-22" value="初始化容器里的Bean" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-24" target="0KbJ406O0pL8vo5ZdRxn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-24" value="refresh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-26" target="0KbJ406O0pL8vo5ZdRxn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-26" value="&lt;span style=&quot;white-space: normal&quot;&gt;@SpringBootApplication注解类&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KbJ406O0pL8vo5ZdRxn-28" target="0KbJ406O0pL8vo5ZdRxn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-28" value="refresh后回调ApplicationRunnere接口CommanLineRunner方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="710" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0KbJ406O0pL8vo5ZdRxn-30" value="finish监听广播事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
